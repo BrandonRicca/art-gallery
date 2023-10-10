@@ -1,0 +1,76 @@
+body {
+  background-color: lightslategray;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#submit-btn {
+  grid-column: span 2;
+  width: 100px;
+  justify-self: center;
+}
+
+.red {
+  width: 500px;
+  height: 250px;
+  border: 1px solid crimson;
+  padding: 10px;
+  margin: 10px;
+  background-color: crimson;
+  box-sizing: border-box;
+  /* z-index: -1; */
+  /* left: 50vw; */
+}
+
+.black {
+  width: 500px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: black;
+  box-sizing: border-box;
+  /* z-index: -1; */
+  /* right: 50vw; */
+}
+
+#art {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.blue {
+  width: 100vw;
+  height: 500px;
+  border: 1px solid skyblue;
+  padding: 10px;
+  margin: 10px;
+  background-color: skyblue;
+  z-index: -1;
+  /* top: 315px; */
+  /* right: 38vw; */
+}
+
+.white {
+  /* border: 1px solid white;
+  background-color: white; */
+  /* width: 500px;
+  height: 250px; */
+  left: 700px;
+  top: 500px;
+  z-index: 2;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 400px solid white;
+}
